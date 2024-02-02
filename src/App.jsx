@@ -7,6 +7,8 @@ import PrivateTour from './pages/PrivateTour'
 import SingleTour from './pages/SingleTour'
 import TourList from './pages/TourList'
 import LayoutPage from './pages/LayoutPage';
+import Header from './components/Header/Header';
+import FooterComponent from './components/Footer/FooterCom';
 
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
     <>
 
      <BrowserRouter>
+     <Header/>
      <Routes>
       <Route path='/' element={<LayoutPage/>} >
       <Route index element={<Home/>} />
@@ -25,6 +28,7 @@ function App() {
       <Route path='/tourlist' element={<TourList/>} />
       </Route>
     </Routes>
+    <FooterComponent/>
      </BrowserRouter>
       
     </>
