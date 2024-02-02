@@ -1,0 +1,24 @@
+.twoface{
+    background-image: url(twoface.jpg);
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.twoface-text{
+    text-align: center;
+    padding: 60px 0px;
+}
+.twoface-text h3{
+    font-size: 35px;
+    padding: 25px;
+    color: rgb(61, 123, 61);
+}
+.twoface-text p{
+    line-height: 20px;
+    font-size: 15px;
+    color: rgb(141, 125, 125);
+}
+.twoface-text .last-text{
+    margin-bottom: 25px;
+}

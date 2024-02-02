@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.headercomponent{
+    display: flex;
+    position: relative;
+}
+.header-menu{
+    position: fixed;
+    background-color: white;
+    width: 350px;
+    height: 100vh;
+    color: rgb(79, 36, 8);
+    left: -999px;
+    transition: 1s;
+    z-index: 2;
+
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 110px;
+    flex: 2;
+}
+.logo-pic img{
+    height: 100px;
+}
+.phone p{
+    border: 2px solid rgb(135, 184, 86);
+    padding: 13px 25px;
+    margin-top: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(79, 36, 6);
+    cursor: pointer;
+}
+.phone p:hover{
+    background-color: red;
+    color: white;
+}
+.phone span{
+    padding: 9px;
+}
+.logo span{
+    font-size: 30px;
+    color: rgb(75, 83, 67);
+    cursor: pointer;
+}
+.header-menu ul{
+    margin-top: 70px;
+    list-style: none;
+    padding: 0px;
+}
+.header-menu ul li{
+    padding: 25px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.header-menu ul li:hover{
+    background-color: rgb(140, 218, 14);
+}
+.header-menu p{
+    position: relative;
+    left: -10px;
+    font-size: 30px;
+    text-align: end;
+    cursor: pointer;
+    color: rgb(93, 72, 72);
+
+}
+.active{
+    left: 0;
+    transition: 1s;
+}
+
+a:hover{
+   color: white !important;
+}

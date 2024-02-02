@@ -1,0 +1,130 @@
+.ourguides-bg{
+    background-image: url(bg-white.jpg);
+    padding: 100px 150px;
+}
+.ourgudies{
+    display: flex;
+    gap: 30px;
+}
+.img1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 26px;
+}
+.img2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ourguides-text{
+    width: 50%;
+}
+.ourguides-img{
+    width: 50%;
+    padding-right: 110px;
+}
+.img1 div,.img2 div{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+.img1 div img,.img div{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ourguides-img h2{
+    padding: 25px 0px;
+    color: rgb(16, 60, 16);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ourguides-img button{
+    background-color:rgb(135, 184, 86);
+    color: white;
+    padding: 10px 30px;
+    margin-top: 60px;
+}
+.ourguides-text{
+    padding: 50px 0px;
+}
+.text-p{
+    background-color: white;
+    padding: 30px;
+}
+.p-coma{
+    width: 40px;
+}
+.text-p h5{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.text-p p{
+    color: rgb(67, 64, 64);
+    font-size: 15px;
+}
+.text-p span{
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(46, 42, 42);
+}
+.tripad{
+    display: flex;
+    padding: 30px 0px;
+}
+.tripad img{
+    width: 200px;
+}
+.tripad p{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: rgb(71, 67, 67);
+    margin-bottom: 10px;
+}
+.text-p .logo{
+    display: flex;
+    padding-top: 20px;
+    gap: 5px;
+}
+.text-p .logo img{
+    width: 36px;
+}
+.cricle{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.cricle div{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #187d24;
+}
+.text-p .logo p{
+    font-size: 12px;
+    margin: 2px;
+    padding: 4px 0;
+}
+.tripad .review{
+    display: flex;
+}
+.review-c{
+    display: flex;
+    gap: 2px;
+    margin-left: 22px;
+}
+.review-c div{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #187d24;
+}
+.review div span{
+    font-size: 12px;
+    padding-left: 8px;
+    position: relative;
+    top: -7px;
+}

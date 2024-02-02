@@ -1,0 +1,23 @@
+.ourtravel{
+    background-image: url(travel.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.ourtour{
+    text-align: center;
+    padding: 70px 0px;
+}
+.ourtour h3{
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size: 33px;
+    font-weight: 600;
+}
+.ourtour h6{
+    font-size: 15px;
+    color: rgb(51, 50, 50);
+}
+.ourtour p{
+    color: rgb(82, 77, 77);
+}

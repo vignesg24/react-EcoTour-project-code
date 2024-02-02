@@ -1,0 +1,42 @@
+.sea-boat{
+    background-image: url(sea-boat.jpg);
+    width: 100%;
+    height: 410px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.privatize{
+    text-align: center;
+    padding: 30px 0px;
+}
+.privatize h1{
+    padding: 20px 0px;
+    color: rgb(43, 90, 43);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.privatize p{
+    font-size: 15px;
+    color: rgb(58, 57, 55);
+    padding-bottom: 20px;
+}
+.tripmade{
+    display: flex;
+    padding: 40px 150px;
+    gap: 40px;
+}
+.tripmade div{
+    width: 50%;
+    border: 1px solid;
+    padding: 30px 60px;
+    color: white;
+}
+.tripmade h3{
+    padding: 20px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.trip-left{
+    background-color: rgb(139, 188, 65);
+}
+.trip-right{
+    background-color: rgb(43, 81, 43);
+}

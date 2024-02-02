@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+
+.background-title{
+    padding: 0px 150px;
+    color: white;
+    position: absolute;
+    bottom: 140px;
+}
+.background-video{
+    position: relative;
+}
+.background-video video{
+    width: 100%;
+    object-fit: cover;
+
+}
+.background-title h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 10px;
+    margin-bottom: 30px;
+}
+.background-title h2{
+    font-size: 65px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 56px;
+}
+.background-title button{
+    padding: 17px 60px;
+    margin-top: 40px;
+    font-weight: 600;
+    background-color: rgb(135, 184, 86);
+    color: white;
+}

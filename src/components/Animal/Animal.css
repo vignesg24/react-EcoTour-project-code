@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.animal-bg{
+    background-image: url('https://wallup.net/wp-content/uploads/2016/05/24/303026-nature.jpg');
+    padding: 60px 50px;
+
+}
+.animal-part{
+    display: flex;
+}
+.animal-text{
+    background-color: white;
+    width: 52%;
+    position: relative;
+    left: 73px;
+    height: 320px;
+   margin: 60px 0px ; 
+   padding: 35px;
+   z-index: 1;
+
+}
+.animal-img {
+    width: 65%;
+    position: relative;
+    right: 70px;
+    height: 430px;
+}
+.animal-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.animal-text h2{
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(91, 143, 91);
+    line-height: 30px;
+}
+.animal-text h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 13px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+.animal-text p{
+    margin-top: 25px;
+    font-size: 15px;
+}
+.h2{
+    margin-bottom:27px ;
+}
+.animal-text button{
+    padding: 15px 60px;
+    background-color: rgb(135, 184, 86);
+    color: white;
+    position: relative;
+    left: 35px;
+    bottom: 3px;
+}
+.animal-text div{
+    display: flex;
+    justify-content: end;
+}

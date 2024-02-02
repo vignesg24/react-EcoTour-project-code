@@ -1,0 +1,76 @@
+.travelExp{
+    padding: 50px 150px;
+}
+.travelExp h2{
+    text-align: center;
+    padding: 40px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.travelExp-photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+.travelExp-one{
+    display: grid;
+    grid-template-rows: repeat(3,370px);
+    gap: 25px;
+}
+.travelExp-two{
+    display: grid;
+    grid-template-rows: repeat(2,567px);
+    gap: 25px;
+}
+.travelExp-three{
+    display: grid;
+    grid-template-rows: repeat(3,370px);
+    gap: 25px;
+}
+.travelExp-one img,.travelExp-two img,.travelExp-three img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.travelExp-one div,.travelExp-two div,.travelExp-three div{
+    width: 100%;
+    height: 100%;
+}
+.travelExp-title{
+    position: relative;
+    padding-left: 35px;
+    top: -670px;
+    color: white;
+    background-color: rgba(0, 0, 0,0.4);
+    padding-top: 550px;
+    padding-bottom: 250px;
+}
+.p1,.pe,.pr,.p4,.p5,.p6,.p7,.p8{
+    overflow: hidden;
+}
+.travelExp-title h5{
+    font-size: 30px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 0px;
+    padding-bottom: 3px;
+}
+.travelExp-title p{
+    background-color: green;
+    width: 60px;
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 15px;
+
+}
+.travelExp-title:hover{
+    top: -770px;
+}
+.p6 .travelExp-title{
+    position: relative;
+    top: -697px;
+}
+.p6 .travelExp-title:hover{
+    top: -800px;
+}

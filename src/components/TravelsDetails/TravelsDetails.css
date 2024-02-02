@@ -1,0 +1,151 @@
+.travelsdetails-full{
+    padding: 30px 150px;
+    background-color: #f0f0f0;
+    
+}
+.travelsdetails-port{
+    display: flex;
+    height: 300px;
+    overflow: hidden;
+    box-shadow: 3px 1px 20px black;
+    margin-bottom: 27px;
+}
+.travelport-left{
+    width: 36%;
+    background-color: #f0f0f0;
+}
+.travelport-right{
+    width: 64%;
+    padding: 30px;
+    background-color: white;
+    padding-right: 80px;
+}
+.travelport-right-div{
+    display: flex;
+    justify-content: space-between;
+}
+.travelport-div-left h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    padding: 10px 0px;
+}
+.travelport-div-left h6{
+    padding: 0px;
+}
+.travelport-div-left p{
+    margin: 0px;
+    font-size: 15px;
+    color: rgb(61, 60, 60);
+}
+.travelport-div-right{
+    text-align: end;
+}
+.travelport-div-right span{
+    background-color: green;
+    color: white;
+    padding: 5px 20px;
+}
+.travelport-div-right h6{
+    padding: 5px 0px;
+    font-size: 15px;
+    margin: 0px;
+}
+.travelport-div-right p{
+    color: rgb(61, 60, 60);
+    margin-bottom: 90px;
+}
+.travelport-image{
+    height: 300px;
+}
+.travelport-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right-span{
+    font-weight: 600;
+    color: black;
+}
+.div-right-para{
+    padding-left: 25px;
+    font-size: 15px;
+    color: #615e5e;
+}
+.travelsdetails-port:hover{
+    height: 640px;
+}
+.travelport-text{
+    padding: 30px;
+}
+.travelport-text-map{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.travelport-text-map span{
+    font-size: 14px;
+    font-weight: 700;
+}
+.travelport-text p{
+    margin: 0px;
+    padding: 10px 0px;
+}
+.travelport-text hr{
+    margin: 0px;
+}
+.travelport-text-map i{
+    color: green;
+}
+.div-right-details {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.div-right-details img{
+    width: 32px;
+}
+.div-right-review {
+    display: flex;
+    gap: 2px;
+}
+.div-right-review div{
+    background: green;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-top: 4px;
+}
+.review-p{
+    font-size: 12px;
+    color: #615e5e;
+    margin-top: 4px;
+}
+.right-details-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.right-details-flex  button{
+    background-color: green;
+    color: white;
+    padding: 10px 30px;
+}
+.traveldetails-load-button{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.traveldetails-load-button button{
+    background-color: green;
+    color: white;
+    padding: 10px 45px;
+}
+.travelsdetails-icon{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px 0px;
+    padding-bottom: 50px;
+    cursor: pointer;
+}

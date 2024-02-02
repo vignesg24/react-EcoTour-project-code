@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.footercomponent{
+    background-image: url(bgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer-top{
+    padding: 100px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('');
+}
+.book{
+    display: flex   ;
+}
+.book img{
+    width: 70px;
+}
+.color{
+    color: white;
+}
+.para p{
+    font-size: 30px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+}
+button{
+    padding: 15px 25px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#p{
+    margin-top: -10px;
+}
+
+.footer-buttom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 50px 150px;
+    gap: 30px;
+    color: white;
+}
+
+.footer-buttom h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: greenyellow;
+}
+.footer-buttom ul{
+    list-style: none;
+    padding: 0px;
+}
+.footer-buttom ul li{
+    padding: 10px 10px 10px 0px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.icon span{
+    padding: 7px;
+    font-size: 23px;
+}
+#p1 , #p2{
+    font-size: 12px;
+}
+.png2{
+    width: 200px;
+    height: 80px;
+    margin-top: -30px;
+}
+.png1{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+.rs p{
+    margin: 0px;
+    padding-top: 13px;
+    font-size: 14px;
+}
+.rs span{
+    font-size: 13px;
+}
+#p2{
+    margin-top: -13 px;
+}

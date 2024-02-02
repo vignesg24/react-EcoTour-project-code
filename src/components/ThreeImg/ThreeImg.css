@@ -1,0 +1,11 @@
+
+.threeimg-img{
+    display: flex;
+    justify-content: space-between;
+}
+.threeimg-img div{
+    width: 33.2%;
+}
+.threeimg-img div img{
+    height: 100%;
+}

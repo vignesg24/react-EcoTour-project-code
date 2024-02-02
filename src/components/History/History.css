@@ -1,0 +1,18 @@
+.history{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 150px;
+    gap: 40px;
+}
+.history div{
+    width: 50%;
+}
+.history p{
+    color: rgb(123, 113, 113);
+    padding: 5px 0;
+}
+.history h2{
+    padding: 20px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

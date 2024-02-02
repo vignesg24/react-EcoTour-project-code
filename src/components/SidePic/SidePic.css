@@ -1,0 +1,15 @@
+.side img{
+    height: 640px !important;
+    object-fit: cover;
+}
+.side-btn{
+    color: white;
+    padding: 60px 0px 90px;
+    display: flex;
+    justify-content: center;
+}
+.side-btn button{
+    background-color: rgb(102, 160, 43) !important;
+    padding: 10px 50px;
+    color: white;
+}

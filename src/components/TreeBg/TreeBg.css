@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.treeBg{
+    background-image: url('https://s3.amazonaws.com/royalstockphoto/wp-content/uploads/2016/09/26204956/x021x-Pompano-Beach-Pier-Colors-OVer-Pier.jpg');
+    padding: 270px 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 350px;
+}
+.treeBg h2{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+.treeBg-icon{
+    display: flex;
+    align-items: centre;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding-bottom: 20px;
+}
+.treeBg-icon div{
+    width: 25%;
+    text-align: center;
+}
+.treeBg-icon h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
